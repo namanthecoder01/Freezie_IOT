@@ -48,7 +48,8 @@ A real-time waste management system that optimizes collection routes based on bi
 - AI algorithms analyze fill levels, prioritize bins & predict waste trends.
 
 3️⃣ AI-Driven Route Optimization
-![WhatsApp Image 2025-02-09 at 09 57 55_a1be1c41](https://github.com/user-attachments/assets/890f7814-de9a-496a-9926-4cb2539aacea)
+![WhatsApp Image 2025-02-09 at 09 52 36_73549937](https://github.com/user-attachments/assets/50a6bd50-4102-4c6f-b9bc-f6af41cda05f)
+
 
 - Dijkstra’s Algorithm dynamically generate an optimal collection route.
 
