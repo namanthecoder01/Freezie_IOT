@@ -48,9 +48,7 @@ A real-time waste management system that optimizes collection routes based on bi
 - AI algorithms analyze fill levels, prioritize bins & predict waste trends.
 
 3️⃣ AI-Driven Route Optimization
-![WhatsApp Image 2025-02-09 at 10 04 40_9fdad4b7](https://github.com/user-attachments/assets/3c837848-af24-4868-b5a4-ccf4b4e3ad1f)
-
-
+![WhatsApp Image 2025-02-09 at 10 06 41_25017a32](https://github.com/user-attachments/assets/7dcede1f-6304-4e39-b23a-771748ddbeb4)
 
 - Dijkstra’s Algorithm dynamically generate an optimal collection route.
 
@@ -65,8 +63,8 @@ A real-time waste management system that optimizes collection routes based on bi
 - Displays missed collection alerts & estimated arrival times.
 
 5️⃣ Admin Dashboard for Monitoring
-![WhatsApp Image 2025-02-09 at 09 56 40_c8c3424c](https://github.com/user-attachments/assets/cff8e6b9-76b3-4f35-8377-a77ab95ac2f8)
 
+![WhatsApp Image 2025-02-09 at 09 56 40_c8c3424c](https://github.com/user-attachments/assets/cff8e6b9-76b3-4f35-8377-a77ab95ac2f8)
 
 Streamlit-based Dashboard allows:
 
