@@ -22,7 +22,7 @@ Traditional waste collection systems follow fixed routes and schedules, leading 
 
 A real-time waste management system that optimizes collection routes based on bin fill levels, traffic conditions, and priority.
 
-🔧 Tech Stack
+**🔧 Tech Stack**
 
 ![image](https://github.com/user-attachments/assets/e5c650b4-11bb-47f1-8ed0-322d52b3a95e)
 
@@ -48,7 +48,8 @@ A real-time waste management system that optimizes collection routes based on bi
 - AI algorithms analyze fill levels, prioritize bins & predict waste trends.
 
 3️⃣ AI-Driven Route Optimization
-![WhatsApp Image 2025-02-09 at 09 52 36_73549937](https://github.com/user-attachments/assets/50a6bd50-4102-4c6f-b9bc-f6af41cda05f)
+![WhatsApp Image 2025-02-09 at 10 04 40_9fdad4b7](https://github.com/user-attachments/assets/3c837848-af24-4868-b5a4-ccf4b4e3ad1f)
+
 
 
 - Dijkstra’s Algorithm dynamically generate an optimal collection route.
@@ -77,7 +78,7 @@ Streamlit-based Dashboard allows:
 
 - Environmental impact analytics and carbon footprint reports.
 
-🎯 Key Features
+**🎯 Key Features**
 
 ✅ AI-Optimized Routing → Reduces fuel consumption & travel time.
 
