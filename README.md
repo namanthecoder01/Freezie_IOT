@@ -30,6 +30,7 @@ A real-time waste management system that optimizes collection routes based on bi
 **⚙ How It Works**
 
 1️⃣ Smart Waste Bins with IoT Sensors
+![cd](https://github.com/user-attachments/assets/b5810264-80b0-4602-87f4-887b9603adc6)
 
 - Ultrasonic sensors measure bin fill levels.
 
