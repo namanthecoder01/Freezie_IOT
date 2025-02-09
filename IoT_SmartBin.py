@@ -20,13 +20,27 @@ import streamlit as st
 from firebase_admin import credentials, initialize_app
 load_dotenv()
 # Load Firebase Admin Key from Streamlit Secrets
-firebase_admin_key = json.loads(st.secrets["FIREBASE_ADMIN_KEY"])  # Parse JSON string
+import toml
+import streamlit as st
+import firebase_admin
+from firebase_admin import credentials, db
 
+
+
+
+# Manually load secrets from the renamed folder
+with open("streamlit_config/secrets.toml", "r") as f:
+    secrets = toml.load(f)
+
+# Now, use secrets like this:
+firebase_admin_key = json.loads(secrets["FIREBASE_ADMIN_KEY"])
+
+st.write("Firebase Config Loaded Successfully")
 # Initialize Firebase
 if not firebase_admin._apps:
     cred = credentials.Certificate(firebase_admin_key)
-    initialize_app(cred, {
-        'databaseURL': 'https://iot-bin-ba8a5-default-rtdb.firebaseio.com/'
+    firebase_admin.initialize_app(cred, {
+        'databaseURL': 'https://iot-bin-ba8a5-default-rtdb.firebaseio.com/'  # Replace with your Firebase DB URL
     })
 
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
